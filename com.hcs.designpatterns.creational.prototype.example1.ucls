@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <interface id="1" language="java" name="com.hcs.designpatterns.creational.prototype.example1.Animal" 
+    project="DesignPatterns" file="/DesignPatterns/src/com/hcs/designpatterns/creational/prototype/example1/Animal.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="79" width="195" x="394" y="192"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="com.hcs.designpatterns.creational.prototype.example1.CloneFactory" 
+    project="DesignPatterns" 
+    file="/DesignPatterns/src/com/hcs/designpatterns/creational/prototype/example1/CloneFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="195" x="746" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.hcs.designpatterns.creational.prototype.example1.Dog" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/hcs/designpatterns/creational/prototype/example1/Dog.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="115" width="195" x="511" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.hcs.designpatterns.creational.prototype.example1.Sheep" 
+    project="DesignPatterns" file="/DesignPatterns/src/com/hcs/designpatterns/creational/prototype/example1/Sheep.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="115" width="195" x="276" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.hcs.designpatterns.creational.prototype.example1.TestingCloning" 
+    project="DesignPatterns" 
+    file="/DesignPatterns/src/com/hcs/designpatterns/creational/prototype/example1/TestingCloning.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="195" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <realization id="6">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="7">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

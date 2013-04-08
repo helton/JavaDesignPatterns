@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="com.hcs.designpatterns.strategy.example3.CalculadorDeImpostos" 
+    project="DesignPatterns" 
+    file="/DesignPatterns/src/com/hcs/designpatterns/strategy/example3/CalculadorDeImpostos.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="216" x="1191" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.hcs.designpatterns.strategy.example3.ICCC" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/hcs/designpatterns/strategy/example3/ICCC.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="190" x="731" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.hcs.designpatterns.strategy.example3.ICMS" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/hcs/designpatterns/strategy/example3/ICMS.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="190" x="271" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="com.hcs.designpatterns.strategy.example3.Imposto" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/hcs/designpatterns/strategy/example3/Imposto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="79" width="190" x="501" y="192"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="com.hcs.designpatterns.strategy.example3.ISS" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/hcs/designpatterns/strategy/example3/ISS.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="190" x="501" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.hcs.designpatterns.strategy.example3.Orcamento" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/hcs/designpatterns/strategy/example3/Orcamento.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="115" width="190" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.hcs.designpatterns.strategy.example3.TesteDeImpostos" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/hcs/designpatterns/strategy/example3/TesteDeImpostos.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="190" x="961" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <realization id="8">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="9">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="10">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

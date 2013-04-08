@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="com.hcs.designpatterns.strategy.example1.Animal" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/hcs/designpatterns/strategy/example1/Animal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="439" width="190" x="271" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.hcs.designpatterns.strategy.example1.AnimalPlay" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/hcs/designpatterns/strategy/example1/AnimalPlay.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="190" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.hcs.designpatterns.strategy.example1.Bird" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/hcs/designpatterns/strategy/example1/Bird.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="79" width="190" x="271" y="516"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.hcs.designpatterns.strategy.example1.CantFly" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/hcs/designpatterns/strategy/example1/Flys.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="190" x="501" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.hcs.designpatterns.strategy.example1.Dog" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/hcs/designpatterns/strategy/example1/Dog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="190" x="41" y="516"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="com.hcs.designpatterns.strategy.example1.Flys" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/hcs/designpatterns/strategy/example1/Flys.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="79" width="190" x="501" y="516"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="com.hcs.designpatterns.behavioral.strategy.example1.ItFlys" 
+    project="DesignPatterns" file="/DesignPatterns/src/com/hcs/designpatterns/behavioral/strategy/example1/Flys.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="190" x="731" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <realization id="8">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="10">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="11" name="flyingType"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="13">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <realization id="14">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
